@@ -7,7 +7,8 @@ const App = () => {
     console.log(messages)
 
   const getResponse = async () => {
-    const response = await fetch(`http://localhost:8000/prompt/${text}`)
+    const response = await fetch(`  https://chatbot-gemini-backend.onrender.com/prompt/${text}`)
+  
       const data = await response.json()
       console.log(data.promptText)
       setMessages([...messages,
