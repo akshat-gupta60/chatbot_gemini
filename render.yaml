@@ -1,0 +1,12 @@
+services:
+  - name: frontend
+    type: vite
+    config: src/vite.config.js
+
+  - name: backend
+    type: web
+    buildCommand: npm install
+    startCommand: node src/server.cjs
+
+env:
+  - file: .env
