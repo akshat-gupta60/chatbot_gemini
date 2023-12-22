@@ -23,7 +23,7 @@ const App = () => {
       <div className="chat-header">
         <div className="info-container">
           <h3>Chat with</h3>
-          <h2>PaLM 2 Bot</h2>
+          <h2>Gemini </h2>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
